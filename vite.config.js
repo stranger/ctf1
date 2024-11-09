@@ -6,7 +6,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), vitePluginRequire.default()],
-  base: "/book-landing-page/",
+  base: "/ctf1/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "/src"),
