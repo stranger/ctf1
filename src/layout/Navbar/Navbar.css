@@ -1,0 +1,22 @@
+.navbar {
+    height: 50px;
+    /* stretched över hela, fixed så den stannar + relativ till rot */
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.navbar-list {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navbar-list li {
+    font-size: max(1.5vw, 1rem);
+    margin: 0 1rem;
+}
+
+.navbar-list li.nav-brand {}

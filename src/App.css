@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'pixelmix';
+  src: local('pixelmix'), url(./assets/images/pixelmix.ttf), format('ttf');
+}
+
+@font-face {
+  font-family: 'SuperMario';
+  src: local('SuperMario256'), url(./assets/images/SuperMario256.ttf), format('ttf');
+}
+
+#root {
+  font-family: 'pixelmix';
+  width: 100vw;
+  min-height: 100;
+  overflow: scroll;
+  display: grid;
+  justify-content: center;
+
+}
+
+
+
+header {
+  align-self: start;
+}
+
+main {
+  min-height: 100%;
+  align-self: center;
+}
+
+
+footer {
+
+  align-self: end;
+
+}
